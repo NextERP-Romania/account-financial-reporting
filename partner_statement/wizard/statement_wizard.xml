@@ -2,13 +2,12 @@
 <!-- Copyright 2018 ForgeFlow, S.L. (https://www.forgeflow.com)
      License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
 <odoo>
-    
+
 
         <record id="activity_statement_wizard_action" model="ir.actions.act_window">
             <field name="name">Partner OutstanActivityding Statement</field>
             <field name="res_model">activity.statement.wizard</field>
             <field name="view_mode">form</field>
-            <field name="view_id" ref="view_account_debit_note"/>
             <field name="target">new</field>
             <field name="binding_model_id" ref="base.res_partner" />
             <field name="binding_view_types">list</field>
@@ -18,7 +17,6 @@
             <field name="name">Partner Outstanding Statement</field>
             <field name="res_model">outstanding.statement.wizard</field>
             <field name="view_mode">form</field>
-            <field name="view_id" ref="view_account_debit_note"/>
             <field name="target">new</field>
             <field name="binding_model_id" ref="base.res_partner" />
             <field name="binding_view_types">list</field>

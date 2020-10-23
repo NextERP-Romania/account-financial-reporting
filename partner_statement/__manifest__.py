@@ -13,6 +13,7 @@
     "external_dependencies": {"python": ["dateutil"]},
     "data": [
         "security/statement_security.xml",
+        "security/ir.model.access.csv",
         "views/activity_statement.xml",
         "views/outstanding_statement.xml",
         "views/assets.xml",
